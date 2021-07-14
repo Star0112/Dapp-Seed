@@ -1,0 +1,76 @@
+@import url(//db.onlinewebfonts.com/c/a59a10fc173a405262ecba082980066e?family=Aktiv+Grotesk);
+
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.eot');
+  src: url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.woff2') format('woff2'),
+    url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.woff') format('woff'),
+    url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.ttf') format('truetype'),
+    url('//db.onlinewebfonts.com/t/a59a10fc173a405262ecba082980066e.svg#Aktiv Grotesk')
+      format('svg');
+}
+
+body {
+  margin: 0;
+  font-family: 'Aktiv Grotesk' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px !important;
+  color: #2a2a2a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 12px !important;
+  }
+}
+
+.modal-dialog {
+  max-width: 350px !important;
+}
+
+.modal-content {
+  border-radius: 1.3rem !important;
+}
+
+.connect-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connect-header .title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #2a2a2a;
+}
+
+.connect-header img {
+  cursor: pointer;
+}
+
+.connect-body .connector {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.connect-body .connector img {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.connect-body .connector .connect-desc {
+  color: #2a2a2a;
+  font-size: 20px;
+}

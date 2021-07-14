@@ -1,0 +1,22 @@
+.sample-container {
+  padding: 0 10px;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .sample-container {
+    padding: 0 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sample-container {
+    padding: 0 10%;
+  }
+}
+
+@media (min-width: 1560px) {
+  .sample-container {
+    padding: 0 15%;
+  }
+}
